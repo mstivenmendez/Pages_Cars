@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title> ADRIAN THE BEST </title>
+</head>
+
+<body>
+    <main>
+        <div class="todo">
+            <input type="checkbox" id="mostrarModal" class="registro">
+
+            <!-- Formulario de INICIO -->
+            <div class="caja_inicio">
+                <form action="" class="formulario_inicio">
+                    <h2> INICIAR SESION </h2>
+                    <input type="text" placeholder="Usuario" id="usuario">
+                    <br><br>
+                    <input type="password" placeholder="Contraseña" id="password">
+                    <br><br>
+                    <button> INGRESAR </button>
+                    <br><br>
+                    <label for="mostrarModal" class="boton-registro"> REGISTRAR </label>
+                    <div class="registro_cuentas">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-google"></i>
+                        </a>
+                    </div>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        ¿OLVIDASTE TU CONTRASEÑA?
+                    </a>
+                </form>
+            </div>
+
+            <!-- Formulario de REGISTRO -->
+            <div class="registro_usuario">
+                <div class="contenido">
+                    <form class="formulario_registro">
+                        <h2> REGISTRARSE </h2>
+                        <div class="contenido_formulario">
+                            <div class="sesion">
+                                <input type="text" placeholder="Cédula" name="cedula">
+                                <input type="text" placeholder="Nombres" name="nombre">
+                                <input type="text" placeholder="Usuarios" name="apellidos">
+                            </div>
+                            <div class="sesion">
+                                <input type="text" placeholder="Teléfono" name="telefono">
+                                <input type="text" placeholder="Apellidos" name="usuario">
+                                <input type="password" placeholder="Contraseña" name="contraseña">
+                            </div>
+                        </div>
+                        <br><br>
+                    </form>
+                    <button type="submit"> REGISTRAR </button>
+                    <label for="mostrarModal" class="cerrar-modal"> INICIO </label>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
