@@ -39,6 +39,7 @@ body {
     align-items: center;
     text-decoration: none;
     font-size: 15px;
+    color: rgb(68, 66, 66);
 }
 
 i {
@@ -71,6 +72,7 @@ i {
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 40px;
+    background-color: #ffffff;
 }
 
 .barra-de-busqueda {
