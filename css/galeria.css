@@ -1,0 +1,63 @@
+.container-derecho {
+    background-color: #F5F4F6;
+}
+
+.contenido-principal {
+    width: 100%;
+    background-color: #F5F4F6;
+}
+
+.logos-de-carros {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logos-de-carros div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 232px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 236px 236px;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 318px;
+    height: 236px;
+}
+
+.card-header{
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}

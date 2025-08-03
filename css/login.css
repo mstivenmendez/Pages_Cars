@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(./src/img-main/IMAGENES/FONDO_LOGIN.jpg);
+    background-image: url(/src/IMAGENES/FONDO_LOGIN.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
