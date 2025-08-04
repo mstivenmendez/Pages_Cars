@@ -171,6 +171,10 @@ i {
     justify-self: center;
     padding: 10px;
 }
+.sell_cars_left img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2) drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+}
 
 .sell_cars_left h1 {
     font-size: 2vw;
@@ -193,6 +197,14 @@ i {
     width: 100%;
     height: 240px;
 }
+.customers_all:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.068);
+    border-radius: 10px;
+}
+.all .numero:hover{
+    background-color: var(--rosado_estandar);
+}
+
 .numero1{
     background-color: white;
     width: 20px;
@@ -224,6 +236,9 @@ i {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.all .especial5:hover{
+    background-color: rgb(230, 23, 23);
+}
 .numero6{
     background-color: var(--rosado_fondo);
     width: 20px;
@@ -246,7 +261,7 @@ i {
 .days{
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
     justify-content: flex-end;
     align-content: space-evenly;
 
@@ -279,6 +294,10 @@ i {
     padding: 6px;
     border-color: var(--fondo_perfil);
 }
+.Dropdown_lists select:hover{
+    box-shadow: 5px 5px 5px 5px rgba(65, 53, 53, 0.062);
+    font-size: 0.8rem;
+}
 
 .customers {
     background-color: var(--fondo_perfil);
@@ -305,11 +324,19 @@ i {
     padding: 5px;
     text-decoration: none;
 }
+.details a:hover{
+    box-shadow: 5px 5px 5px 5px rgba(65, 53, 53, 0.062);
+}
 
 .details a i {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+.details a i:hover{
+    color: black;
+    font-size: 1.5rem;
+
 }
 
 .details .bi-currency-dollar {
@@ -337,6 +364,13 @@ i {
     position: relative;
     width: 100px;
     height: 100px;
+    transition: transform 0.6s ease;
+}
+.circle_colors:hover{
+    transform: rotate(360deg);
+}
+.circle_green:hover{
+    transform: rotate(360deg);
 }
 
 .ring {
@@ -436,6 +470,7 @@ i {
     width: 120px;
     text-align: center;
     font-family: sans-serif;
+    transition: transform 0.6s ease;
 }
 
 

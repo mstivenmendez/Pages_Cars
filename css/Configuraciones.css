@@ -136,6 +136,16 @@ i {
     font-size: 1.2rem;
     color: #888;
 }
+i:hover{
+    cursor: pointer;
+    color: purple;
+}
+a:hover{
+    cursor: pointer;
+    color: purple;
+    background-color: #F5F4F6;
+    border-radius: 5px;
+}
 
 /* Galeria1.CSS craecion del contenido */
 
@@ -301,4 +311,11 @@ h4{
 }
 .Social{
     width: 40%;
+}
+img{
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.267));
 }

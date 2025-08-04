@@ -98,7 +98,19 @@ main {
     box-shadow: 0 0 10px #00000066;
     margin-top: 10px;
     margin-bottom: 20px;
-
+}
+.olvido:hover{
+    font-size: 1.2rem;
+}
+a:hover{
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.13);
+    font-size: 1.5rem;
+}
+button:hover{
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.13);
+}
+label:hover{
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.13);
 }
 
 .boton-registro {

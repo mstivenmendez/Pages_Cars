@@ -332,4 +332,8 @@ i {
     display: block;
     border-radius: 8px;
 }
+img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2) drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+}
 
