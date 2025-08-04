@@ -37,6 +37,7 @@ body {
     width: 15%;
     align-items: center;
     margin-left: 10px;
+    flex-wrap: wrap;
 }
 
 .navbar {
@@ -161,7 +162,7 @@ i {
     background-color: var(--fondo_perfil);
     border-radius: 10px;
     width: 60%;
-    height: 50vh;
+    height: auto;
     padding: 20px;
 }
 
@@ -264,7 +265,8 @@ i {
     gap: 30px;
     justify-content: flex-end;
     align-content: space-evenly;
-
+    flex-wrap: wrap;
+    font-size: 1vw;
 }
 
 .title_offers {

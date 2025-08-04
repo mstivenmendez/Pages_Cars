@@ -31,6 +31,7 @@ body {
     width: 15%;
     align-items: center;
     margin-left: 10px;
+    flex-wrap: wrap;
 }
 
 .navbar {
@@ -130,6 +131,16 @@ i {
     pointer-events: none;
     font-size: 1.2rem;
     color: #888;
+}
+i:hover{
+    cursor: pointer;
+    color: purple;
+}
+a:hover{
+    cursor: pointer;
+    color: purple;
+    background-color: #F5F4F6;
+    border-radius: 5px;
 }
 
 /* Galeria1.CSS craecion del contenido */
