@@ -1,0 +1,108 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F4F6;
+    width: 100%;
+}
+
+.servicios-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.izquierdo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 30px;
+
+}
+
+.cards-numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 590px;
+    height: 156px;
+}
+
+.cards-numbers div {
+    width: 50px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deerecho {
+    width: 411px;
+}
+
+.izquierdo-bajo {
+    width: 100%;
+    
+}
+
+.ul-iz-bajo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ul-iz-bajo li {
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+.li-orange::marker {
+    color: #FF5C67;
+}
+
+.li-purple::marker{
+    color: #A86BFF;
+}
+.order-div{
+    display: flex;
+    margin-top: 30px;
+}
+.your-order{
+    display: flex;
+    flex-direction: column;
+    height: 268px;
+    width: 216px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.ul-order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 354px;
+    height: 268px;
+}
+
+.ul-order li{
+    display: flex;
+    width: 330px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.ul-order div{
+    width: 10px;
+    height: 10px;
+    background-color: #6DD3A4;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
