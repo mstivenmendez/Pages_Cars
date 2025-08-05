@@ -43,7 +43,7 @@ body {
     margin-top: 30px;
     height: 100vh;
     overflow-x: hidden;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .navbar img {
@@ -61,7 +61,7 @@ body {
     width: 100%;
     align-items: center;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 i {
@@ -129,7 +129,7 @@ i {
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #888;
 }
 
@@ -190,7 +190,7 @@ a:hover{
     margin-bottom: 20px;
 }
 .carros h6{
-    font-size: 1vw;
+    font-size: 1.4vw;
     padding: 10px;
 }
 .carros img{
@@ -201,7 +201,7 @@ a:hover{
 .carros i{
     color: var(--texto);
     margin: 10px;
-    font-size: 1vw;
+    font-size: 1.4vw;
 }
 .abajo{
     width: 100%;
@@ -217,7 +217,6 @@ a:hover{
 .ultimo{
     width: 50%;
     display: flex;
-    font-size: 1rem;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 10px;
@@ -229,5 +228,68 @@ img:hover{
     transform: scale(1.1);
     filter: brightness(1.2) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.267));
 }
+
+
+@media (max-width: 1000px){
+    i{
+        font-size: 20px;
+    }
+    .navbar img{
+        width: 130px;
+        height: 40px;
+    }
+}
+@media (max-width: 830px){
+
+    .coleccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .carros{
+        width: 80%;
+    }
+    .imagen1{
+        display: flex;
+    }
+    .imagen1 h6{
+        font-size: 4vw;
+    }
+    .imagen1 i{
+        font-size: 3vw
+    }
+    .navbar a {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 760px){
+    .header{
+        width: 50%;
+        display: flex;
+        background-color: #888;
+    }
+    .header form{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header img{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .barra-de-busqueda input {
+    margin-left: 30px;
+    height: 100%;
+    width: 250px;
+    }
+    .container-navbar{
+        display: none;
+    }
+}
+
 
 
