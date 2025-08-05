@@ -392,3 +392,8 @@
 .icon_price .bi {
     color: var(--morado_estandar);
 }
+option{
+    backdrop-filter: blur(20px);
+    background-color: rgba(250, 237, 237, 0.11);
+    border-radius: 10px;
+}
