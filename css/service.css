@@ -3,7 +3,8 @@
     flex-direction: column;
     background-color: #F5F4F6;
     width: 100%;
-    height: auto;
+    height: calc(100vh - 78px);
+    overflow: auto;
 }
 
 .servicios-container {
@@ -126,15 +127,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 590px;
+    width: 580px;
     height: 60px;
     color: #ffff;
-    border: solid;
     border-radius: 12px;
     background-color: #A161F5;
     text-decoration: none;
     font-size: 20px;
 }
+
+
+
 /* Service required*/
 
 .derecho{
